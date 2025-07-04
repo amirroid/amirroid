@@ -1,6 +1,6 @@
 ## Hi, I'm Amirreza Gholami
 
-Just a developer who honestly has no clue about Android.
+Just an Android developer who honestly has no clue about Android.
 
 ## About Me
 
