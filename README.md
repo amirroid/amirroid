@@ -1,7 +1,7 @@
 I'm just an object.
 An object that successfully consumed all available memory.
 ``` kotlin
-object IWantAllMemory {
+object Amirroid {
     private val junk = mutableListOf<ByteArray>()
 
     @JvmStatic
