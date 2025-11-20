@@ -1,10 +1,15 @@
-## Hi, I'm Amirreza Gholami
+I'm just an object.
+An object that successfully consumed all available memory.
+``` kotlin
+object IWantAllMemory {
+    private val junk = mutableListOf<ByteArray>()
 
-Just an Android developer who honestly has no clue about Android.
-
-## About Me
-
-I love learning new stuff...
-but for some reason, I just can't.
-
-That's it. That's the bio.
+    @JvmStatic
+    fun main(args: Array<String>) {
+        println("absorbing RAM…")
+        while (true) {
+            junk += ByteArray(1024 * 1024)
+        }
+    }
+}
+```
